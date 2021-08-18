@@ -43,7 +43,7 @@ http://www.springframework.org/schema/mvc
 </bean>
 
 
-<bean id="stu" class="com.pojo.Student">
+<bean id="stu" class="com.demo.spring.pojo.Student">
 		<property name="rollNo" value="1"></property>
 		<property name="name" value="student124"></property>
 	</bean>

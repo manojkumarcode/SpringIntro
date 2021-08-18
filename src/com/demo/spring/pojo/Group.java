@@ -1,6 +1,7 @@
 package com.demo.spring.pojo;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;
 
@@ -11,6 +12,7 @@ public class Group {
 	private int groupId;
 	
 	@Autowired // by default autowiring works with ByType
+	@Qualifier(value = "stu")
 	private Student student1;
 	
 
